@@ -18,6 +18,7 @@
 		2813CE392882D9CC00E2AA5D /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2813CE382882D9CC00E2AA5D /* News.swift */; };
 		2813CE3F2882DA5400E2AA5D /* TableViewCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2813CE3D2882DA5400E2AA5D /* TableViewCells.swift */; };
 		2813CE402882DA5400E2AA5D /* TableViewCells.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2813CE3E2882DA5400E2AA5D /* TableViewCells.xib */; };
+		2813CE482882DB4B00E2AA5D /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2813CE472882DB4B00E2AA5D /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		2813CE382882D9CC00E2AA5D /* News.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		2813CE3D2882DA5400E2AA5D /* TableViewCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCells.swift; sourceTree = "<group>"; };
 		2813CE3E2882DA5400E2AA5D /* TableViewCells.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCells.xib; sourceTree = "<group>"; };
+		2813CE472882DB4B00E2AA5D /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 			children = (
 				2813CE2D2882D92F00E2AA5D /* TableViewCell */,
 				2813CDF92882D90000E2AA5D /* ViewController.swift */,
+				2813CE472882DB4B00E2AA5D /* WebViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2813CDFA2882D90000E2AA5D /* ViewController.swift in Sources */,
+				2813CE482882DB4B00E2AA5D /* WebViewController.swift in Sources */,
 				2813CE3F2882DA5400E2AA5D /* TableViewCells.swift in Sources */,
 				2813CDF62882D90000E2AA5D /* AppDelegate.swift in Sources */,
 				2813CE392882D9CC00E2AA5D /* News.swift in Sources */,
