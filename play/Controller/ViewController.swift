@@ -99,6 +99,8 @@ extension ViewController : UITableViewDelegate, UITableViewDataSource
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
+        debugPrint("ddd")
+        
         let url = NewsData[indexPath.row].url
         
 
