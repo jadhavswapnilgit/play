@@ -102,8 +102,12 @@ extension ViewController : UITableViewDelegate, UITableViewDataSource
         let url = NewsData[indexPath.row].url
         
 
-//         
-//
+        
+                    let detailVC = storyboard?.instantiateViewController(withIdentifier: "WebViewController") as! WebViewController
+        
+                detailVC.urls = url
+        
+                self.navigationController?.pushViewController(detailVC, animated: true)
            
     }
     
