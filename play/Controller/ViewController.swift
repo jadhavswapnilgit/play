@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     func GetValue()
     {
         
-        //loader.shared.showActivity(myView: self.view, myTitle: "Loading")
+        loader.shared.showActivity(myView: self.view, myTitle: "Loading")
         
       //  loader()
         
@@ -40,8 +40,7 @@ class ViewController: UIViewController {
                 
                 //loader.shared.removeActivity(myView: self.view)
                 
-               // let loader =   self.loader()
-               //self.stopLoader(loader: loader)
+              
                 
                 let decoder = JSONDecoder()
                 do {
@@ -54,6 +53,7 @@ class ViewController: UIViewController {
                     
                     DispatchQueue.main.async {
                    // loader.shared.removeActivity(myView: self.view)
+                        loader.shared.removeActivity(myView: self.view)
 
                         self.tbl.reloadData()
                     }
